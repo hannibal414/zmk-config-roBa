@@ -49,6 +49,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        Signature: Signature {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "SIGNATURE";
+        };
     };
 
     behaviors {
@@ -67,10 +74,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W    &kp E         &kp R           &kp T                                         &kp Y          &kp U      &lt 5 I     &kp O          &kp P
-&kp A      &kp S    &kp D         &kp F           &kp G        &kp LS(LG(S))       &kp H        &kp J          &kp K      &kp L       &kp SEMICOLON  &kp SQT
-&kp Z      &kp X    &kp C         &kp V           &kp B        &kp LEFT_SHIFT      &kp N        &kp M          &kp COMMA  &kp PERIOD  &kp SLASH      &kp EQUAL
-&kp GRAVE  &kp TAB  &kp LEFT_ALT  &lt 3 LEFT_GUI  &lt 2 SPACE  &kp LCTRL           &lt 2 ENTER  &kp BACKSPACE                                        &kp MINUS
+&kp Q      &kp W    &kp E         &kp R         &kp T                                         &kp Y          &kp U      &lt 5 I     &kp O          &kp P
+&kp A      &kp S    &kp D         &kp F         &kp G        &kp LS(LG(S))       &kp H        &kp J          &kp K      &kp L       &kp SEMICOLON  &kp SQT
+&kp Z      &kp X    &kp C         &kp V         &kp B        &kp LEFT_SHIFT      &kp N        &kp M          &kp COMMA  &kp PERIOD  &kp SLASH      &kp EQUAL
+&kp GRAVE  &kp TAB  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &kp LCTRL           &lt 2 ENTER  &kp BACKSPACE                                        &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
