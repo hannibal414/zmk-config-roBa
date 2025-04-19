@@ -16,7 +16,7 @@
     combos {
         compatible = "zmk,combos";
 
-        Signaturej {
+        Signature {
             bindings = <&Signature>;
             key-positions = <11 12>;
         };
