@@ -60,7 +60,7 @@
 &kp GRAVE  &lt 3 TAB  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &kp LCTRL           &lt 2 ENTER  &kp BACKSPACE                                        &kp MINUS
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(UP_ARROW) LG(TAB)>;
+            sensor-bindings = <&inc_dec_kp LC(UP_ARROW) LC(DOWN)>;
         };
 
         FUNCTION {
