@@ -33,7 +33,7 @@
         Signature: Signature {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LEFT_GUI) &kp V>;
+            bindings = <&kp LC(LG(V))>;
             label = "SIGNATURE";
         };
     };
